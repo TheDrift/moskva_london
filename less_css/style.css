@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  background: rgba(95, 7, 100, 0.5);
+}
+
+.list li button {
+  padding: 20px;
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+  border-right: 2px solid rgb(1, 29, 116);
+}
+
+.block {
+  width: 100%;
+  height: 10vh;
+  background: rgb(6, 2, 85);
+  display: none;
+  padding: 10px 10px;
+}
+
+.block.active {
+  display: block;
+}
+
+.logo {
+  color: white;
+}
+
+.text {
+  color: white;
+}
+
+.London:hover , .Moscow:hover , .Vaduz:hover {
+  background: white;
+  color: rgb(15, 5, 87);
+}
